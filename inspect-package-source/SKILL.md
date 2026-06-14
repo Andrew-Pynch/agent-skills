@@ -1,6 +1,14 @@
 ---
 name: inspect-package-source
-description: Read a third-party package's REAL source instead of guessing its API. Use BEFORE writing or debugging non-trivial code against any dependency whose exact API you are not 100% certain of — especially pre-1.0, recently-updated, sparsely-documented, or unfamiliar packages. Fetch the actual installed source with `opensrc` (npm, PyPI, or any GitHub repo), then grep/read it. This is an anti-hallucination rail: if you would otherwise recall a signature, option name, return shape, or import path from memory, fetch the source and verify it first.
+description: >-
+  Read a third-party package's REAL source instead of guessing its API. Use
+  BEFORE writing or debugging non-trivial code against any dependency whose
+  exact API you are not 100% certain of, especially pre-1.0, recently-updated,
+  sparsely-documented, or unfamiliar packages. Fetch the actual installed
+  source with opensrc (npm, PyPI, or any GitHub repo), then grep and read it.
+  This is an anti-hallucination rail. If you would otherwise recall a
+  signature, option name, return shape, or import path from memory, fetch the
+  source and verify it first.
 ---
 
 # Inspect Package Source
